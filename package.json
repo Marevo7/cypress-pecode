@@ -1,0 +1,23 @@
+{
+  "name": "cypress-pecode",
+  "version": "1.0.0",
+  "description": "test task for pecode",
+  "main": "index.js",
+  "scripts": {
+    "cy:open": "cypress open",
+    "cy:run": "cypress run"
+  },
+  "keywords": [
+    "cypress",
+    "pecode",
+    "test",
+    "task"
+  ],
+  "author": "Bohdan Potapenko",
+  "license": "ISC",
+  "dependencies": {
+    "cypress": "^12.11.0",
+    "cypress-image-snapshot": "^4.0.1",
+    "prettier": "^2.8.8"
+  }
+}
